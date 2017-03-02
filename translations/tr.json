@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Bu uygulama ekleriniz belli bir dosya uzantısına sahip olduğunda sizi uyarır.",
+    "parameters": {
+      "whitelist": {
+        "label": "Beyaz liste",
+        "helpText": "Temsilcilerin ve kullanıcıların hangi dosya biçimlerindeki ekleri yükleyebileceklerini tanımlayın. (Uzantıları virgülle ayırın.) Örneğin: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Bir sorun oluştu"
+    },
+    "alert": {
+      "empty_whitelist": "Bir beyaz liste belirlemediniz. Kayıtta ekli olan tüm ekler tehlikeli olarak kabul edilecektir."
+    },
+    "loading": "Ek taranıyor"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Kötü amaçlı yazılım içerme potansiyeli taşıyan ekler algılandı",
+      "body": "Bu kayıtta, kötü amaçlı yazılım yaymak için kullanılabilecek bir veya birden fazla ek bulduk. "
+    },
+    "secure": "Ekler güvenli"
+  },
+  "unsecure_attachments": {
+    "heading": "Kötü amaçlı yazılım içerme potansiyeli taşıyan ek(ler)"
+  }
+}

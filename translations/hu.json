@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Biztonságos Csatolmányok alkalmazás",
+    "description": "Ez az alkalmazás figyelmeztet, amikor egy bizonyos kiterjesztésű csatolmány jelen van.",
+    "parameters": {
+      "whitelist": {
+        "label": "Fehérlista",
+        "helpText": "Határozza meg a fájltípusokat, amelyeket a munkatársak és a felhasználók mellékletként feltölthetnek.(Válassza le a kiterjesztéseket vesszővel. Pl.: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Valami hiba történt"
+    },
+    "alert": {
+      "empty_whitelist": "Még nem hozott létre fehérlistát. Minden csatolmány ebben a jegyben veszélyesként lesz nyilvántartva."
+    },
+    "loading": "Csatolmányok vizsgálata"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Potenciálisan rosszindulatú melléklet észlelve",
+      "body": "Egy, vagy több csatolmányt találtunk ebben a jegyben, ami malware terjesztésére használható."
+    },
+    "secure": "Csatolmányok biztonságosak"
+  },
+  "unsecure_attachments": {
+    "heading": "Potenciálisan rosszindulatú melléklet(ek)"
+  }
+}

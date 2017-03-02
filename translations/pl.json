@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Aplikacja ta ostrzega o załącznikach z pewnymi rozszerzeniami pliku.",
+    "parameters": {
+      "whitelist": {
+        "label": "Lista dozwolonych",
+        "helpText": "Zdefiniuj formaty plików załączników, które mogą przesyłać agenci i użytkownicy. (Rozdziel rozszerzenia przecinkami, na przykład: zip, jpg, gif, png, pdf)."
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Wystąpił jakiś problem"
+    },
+    "alert": {
+      "empty_whitelist": "Nie zdefiniowano listy dozwolonych. Wszelkie załączniki w zgłoszeniu będą uznawane za niebezpieczne."
+    },
+    "loading": "Skanowanie załączników"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Wykryto potencjalnie szkodliwe załączniki",
+      "body": "Wykryliśmy w tym zgłoszeniu co najmniej jeden załącznik, który może służyć do rozprzestrzeniania szkodliwego oprogramowania."
+    },
+    "secure": "Załączniki są bezpieczne"
+  },
+  "unsecure_attachments": {
+    "heading": "Potencjalnie szkodliwe załączniki"
+  }
+}

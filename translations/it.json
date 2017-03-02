@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "L’app avvisa quando esistono allegati con una data estensione.",
+    "parameters": {
+      "whitelist": {
+        "label": "Whitelist",
+        "helpText": "Definisce i formati dei file degli allegati che possono essere caricati dagli agenti e dagli utenti. (Separare le estensioni con una virgola. Per esempio: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Si è verificato un problema"
+    },
+    "alert": {
+      "empty_whitelist": "Non avete specificato una whitelist. Tutti gli allegati ad un ticket verranno considerati come pericolosi."
+    },
+    "loading": "Scansione allegati"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Rilevato un allegato potenzialmente malevolo",
+      "body": "Questo ticket ha almeno un allegato che potrebbe essere usato per diffondere malware."
+    },
+    "secure": "Gli allegati sono sicuri"
+  },
+  "unsecure_attachments": {
+    "heading": "Allegati potenzialmente pericolosi"
+  }
+}

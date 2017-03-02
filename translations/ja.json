@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "このアプリは、特定のファイル拡張子の添付ファイルがある場合に警告します。",
+    "parameters": {
+      "whitelist": {
+        "label": "ホワイトリスト",
+        "helpText": "エージェントとユーザーがアップロードできる添付ファイルのファイル形式を定義します。（拡張子はカンマで区切ります。例：Zip、jpg、gif、png、pdf）"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "問題が発生しました"
+    },
+    "alert": {
+      "empty_whitelist": "ホワイトリストが指定されていません。チケット内のすべての添付ファイルが危険とみなされます。"
+    },
+    "loading": "添付ファイルのスキャン中"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "悪質な添付ファイルの可能性があるファイルが検出されました",
+      "body": "このチケットにマルウェアを拡散させるために使用される1つまたは複数の添付ファイルが見つかりました。"
+    },
+    "secure": "添付ファイルは安全です"
+  },
+  "unsecure_attachments": {
+    "heading": "悪質な添付ファイルの可能性がある添付ファイル"
+  }
+}

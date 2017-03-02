@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Diese App warnt Sie, wenn Anhänge mit einer bestimmten Dateierweiterung vorhanden sind.",
+    "parameters": {
+      "whitelist": {
+        "label": "Whitelist",
+        "helpText": "Geben Sie die Dateiformate für Anhänge an, die Agenten und Benutzer hochladen dürfen. (Trennen Sie Erweiterungen durch ein Komma, z. B. zip, jpg, gif, png, pdf.)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Fehler aufgetreten"
+    },
+    "alert": {
+      "empty_whitelist": "Sie haben keine Whitelist angegeben. Alle Anhänge in einem Ticket werden als gefährlich betrachtet."
+    },
+    "loading": "Anhänge werden überprüft"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Potenziell bösartige Anhänge entdeckt",
+      "body": "Wir haben mindestens einen Anhang in diesem Ticket gefunden, durch den Malware verbreitet werden könnte."
+    },
+    "secure": "Anhänge sind sicher"
+  },
+  "unsecure_attachments": {
+    "heading": "Potenziell bösartiger Anhang"
+  }
+}

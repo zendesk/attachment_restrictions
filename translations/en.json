@@ -1,0 +1,65 @@
+{
+  "app": {
+    "name": {
+      "title": "Name of the app",
+      "value": "Secure Attachments app"
+    },
+    "description": {
+      "title": "Description of what the app does",
+      "value": "This app warns you when attachments with a certain file extension exist."
+    },
+    "parameters": {
+      "whitelist": {
+        "label": {
+          "title": "Label message for the whitelist setting field.",
+          "value": "Whitelist"
+        },
+        "helpText": {
+          "title": "A brief description on what the whitelist setting is for, below the whitelist field.",
+          "value": "Define the file formats for attachments that agents and users are allowed to upload. (Separate extensions with a comma. For example: zip, jpg, gif, png, pdf)"
+        }
+      }
+    },
+    "package": "secure_attachments"
+  },
+  "global": {
+    "error": {
+      "general": {
+        "title": "Letting the user know that something went wrong with the interface",
+        "value": "Something went wrong"
+      }
+    },
+    "alert": {
+      "empty_whitelist": {
+        "title": "Letting the user know that a whitelist is empty, and its consequences.",
+        "value": "You have not specified a whitelist. All attachments in a ticket will be considered dangerous."
+      }
+    },
+    "loading": {
+      "title": "A message displayed next to the spinner saying 'scanning for attachments'.",
+      "value": "Scanning attachments"
+    }
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": {
+        "title": "Warning that there could be unsafe attachments",
+        "value": "Potentially malicious attachments detected"
+      },
+      "body": {
+        "title": "Warning that there could be unsafe attachments",
+        "value": "We have found one or more attachments in this ticket that could be used to spread malware."
+      }
+    },
+    "secure": {
+      "title": "Positive message that we didn't find a match",
+      "value": "Attachments are safe"
+    }
+  },
+  "unsecure_attachments": {
+    "heading": {
+      "title": "Header Message displayed above the unsecure attachments",
+      "value": "Potentially malicious attachment(s)"
+    }
+  }
+}

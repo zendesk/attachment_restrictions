@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "This app warns you when attachments with a certain file extension exist.",
+    "parameters": {
+      "whitelist": {
+        "label": "Whitelist",
+        "helpText": "Define the file formats for attachments that agents and users are allowed to upload. (Separate extensions with a comma. For example: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Something went wrong"
+    },
+    "alert": {
+      "empty_whitelist": "You have not specified a whitelist. All attachments in a ticket will be considered dangerous."
+    },
+    "loading": "Scanning attachments"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Potentially malicious attachments detected",
+      "body": "We have found one or more attachments in this ticket that could be used to spread malware."
+    },
+    "secure": "Attachments are safe"
+  },
+  "unsecure_attachments": {
+    "heading": "Potentially malicious attachment(s)"
+  }
+}

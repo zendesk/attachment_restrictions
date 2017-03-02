@@ -1,0 +1,23 @@
+<div class="app_main">
+  <div class="unsecure_message">
+    <div class="img"><img src="{{assetURL "error.png"}}"></div>
+    <div class="unsecure">
+      <span>{{t "attachment.unsecure.heading"}}</span>
+      <p>{{t "attachment.unsecure.body"}}</p>
+    </div>
+  </div>
+  <section class="unsecure_attachments">
+    <header>
+      <h3>
+        {{t "unsecure_attachments.heading"}}<a class="toggle_attachments"><i class="icon-chevron-down"></i></a>
+      </h3>
+    </header>
+    <div class="attachment_list hide">
+      <ul>
+        {{#each attachments}}
+        <li>{{file_name}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Esse aplicativo o avisa da existência de anexos com uma determinada extensão de arquivo.",
+    "parameters": {
+      "whitelist": {
+        "label": "Lista de aceitação",
+        "helpText": "Defina os formatos de arquivos para os anexos que os agentes e usuários têm permissão para enviar. (Separe as extensões com uma vírgula. Por exemplo: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Erro"
+    },
+    "alert": {
+      "empty_whitelist": "Você não especificou uma lista de aceitação. Todos os anexos em um ticket serão considerados perigosos."
+    },
+    "loading": "Analisando anexos"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Anexos potencialmente maliciosos detectados",
+      "body": "Encontramos um ou mais anexos nesse ticket que podem ser usados para propagar malwares."
+    },
+    "secure": "Os anexos são seguros"
+  },
+  "unsecure_attachments": {
+    "heading": "Anexo(s) potencialmente malicioso(s)"
+  }
+}

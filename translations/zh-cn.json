@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "当存在特定文件扩展名的附件时，此 app 会警告您。",
+    "parameters": {
+      "whitelist": {
+        "label": "白名单",
+        "helpText": "定义允许专员和用户上传的附件文件格式。（用逗号分隔各扩展名。例如：zip, jpg, gif, png, pdf）"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "出错了"
+    },
+    "alert": {
+      "empty_whitelist": "您尚未指定白名单。工单中的所有附件都将被视为有危险。"
+    },
+    "loading": "正在扫描附件"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "检测到可能的恶意附件",
+      "body": "我们已发现此工单中的一个或多个附件可用于传播恶意软件。"
+    },
+    "secure": "附件是安全的"
+  },
+  "unsecure_attachments": {
+    "heading": "可能的恶意附件"
+  }
+}

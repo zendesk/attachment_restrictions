@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "첨부 파일에 특정 파일 확장자가 있는 경우 이 앱이 경고를 표시합니다.",
+    "parameters": {
+      "whitelist": {
+        "label": "허용 목록",
+        "helpText": "상담원 및 사용자가 업로드할 수 있는 첨부 파일 형식을 정의합니다. (쉼표로 파일 확장자를 구분합니다. 예: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "문제가 발생했습니다."
+    },
+    "alert": {
+      "empty_whitelist": "허용 목록을 지정하지 않았습니다. 이 티켓의 모든 첨부 파일이 위험한 것으로 간주됩니다."
+    },
+    "loading": "첨부 파일 스캔 중"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "악성 코드가 포함된 첨부 파일이 감지되었습니다.",
+      "body": "이 티켓에서 악성 코드를 전파하는 데 사용될 수 있는 하나 이상의 첨부 파일을 발견했습니다."
+    },
+    "secure": "첨부 파일은 안전합니다."
+  },
+  "unsecure_attachments": {
+    "heading": "악성 코드가 포함된 첨부 파일"
+  }
+}

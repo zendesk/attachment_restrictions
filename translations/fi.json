@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Tämä sovellus varoittaa, että on olemassa liitteitä, joilla on tietty tiedostotunniste.",
+    "parameters": {
+      "whitelist": {
+        "label": "Valkoinen lista",
+        "helpText": "Määritä liitteiden tiedostomuodot, joita tukihenkilöt ja käyttäjät voivat ladata. (Erota tunnisteet pilkulla. Esimerkiksi: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Jotain meni pieleen."
+    },
+    "alert": {
+      "empty_whitelist": "Et ole määrittänyt valkoista listaa. Kaikkien tiketin liitteiden katsotaan olevan vaarallisia."
+    },
+    "loading": "Skannaa liitteitä"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Mahdollisesti haitallisia liitteitä havaittu",
+      "body": "Löysimme tästä tiketistä yhden tai useampia liitteitä, joita voidaan käyttää haittaohjelmien levittämiseen."
+    },
+    "secure": "Liitteet ovat turvallisia"
+  },
+  "unsecure_attachments": {
+    "heading": "Mahdollisesti haitalliset liitteet"
+  }
+}

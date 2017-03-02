@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Denna app varnar dig när det finns bilagor med ett visst filnamnstillägg.",
+    "parameters": {
+      "whitelist": {
+        "label": "Vitlista",
+        "helpText": "Definiera filformat för bilagor som agenter och användare har rätt att överföra. (Åtskilj filnamnstilläggen med kommatecken. Exempel: zip, jpg, gif, png, pdf.)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Ett fel inträffade"
+    },
+    "alert": {
+      "empty_whitelist": "Du har inte specificerat en vitlista. Alla ärendebilagor kommer att anses vara riskfyllda."
+    },
+    "loading": "Bilagor skannas"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Potentiellt skadliga bilagor identifierade",
+      "body": "Vi har påträffat en eller flera bilagor till detta ärende som kan användas för att sprida skadliga program."
+    },
+    "secure": "Bilagorna är säkra"
+  },
+  "unsecure_attachments": {
+    "heading": "Potentiellt skadliga bifogade filer"
+  }
+}

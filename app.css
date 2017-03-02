@@ -1,0 +1,89 @@
+.secure {
+  font-size: 14px;
+}
+
+.app_main {
+  text-align: left;
+}
+
+.unsecure_attachments {
+  padding-top: 10px;
+  text-align: left;
+
+  .attachment_list ul {
+    margin: auto;
+  }
+}
+
+.loading_message {
+  font-size: 15px;
+}
+
+.spinner.dotted {
+  width: 40px;
+}
+
+.spinner.dotted,
+.secure_message .img {
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.toggle_attachments {
+  display: block;
+  float: right;
+}
+
+.loading,
+.secure_message {
+  border: 1px solid #D5D5D5;
+  border-radius: 6px;
+  display: block;
+
+  div {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+  }
+}
+
+.unsecure_message {
+  display: block;
+  border: 1px solid #CA2B25;
+  border-radius: 6px;
+  position: relative;
+  padding-bottom: 20px;
+  padding-top: 5px;
+
+  .img {
+    display: block;
+    left: 13px;
+    padding: 8px;
+    position: absolute;
+    margin-top: 5px;
+  }
+
+  .unsecure {
+    position: relative;
+    margin-left: 60px;
+    display: block;
+    width: 245px;
+
+    span {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      display: block;
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+.hide {
+  display: none;
+}

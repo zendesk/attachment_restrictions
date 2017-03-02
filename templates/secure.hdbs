@@ -1,0 +1,6 @@
+<div class="app_main">
+  <div class="secure_message">
+    <div class="img"><img src="{{assetURL "green_tick.png"}}"></div>
+    <div class="secure">{{t "attachment.secure"}}</div>
+  </div>
+</div>

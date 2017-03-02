@@ -1,0 +1,4 @@
+<div class="loading">
+  {{spinner "dotted"}}
+  <div class="loading_message">{{t "global.loading"}}</div>
+</div>

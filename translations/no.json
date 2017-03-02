@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Denne appen advarer deg når det finnes vedlegg med en bestemt filutvidelse.",
+    "parameters": {
+      "whitelist": {
+        "label": "Hvitelisting",
+        "helpText": "Definer filformatet til vedleggene som kundekonsulentene og brukerne kan laste opp. (Skill utvidelsene fra hverandre med et komma. For eksempel: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Noe gikk galt"
+    },
+    "alert": {
+      "empty_whitelist": "Du har ikke angitt en hviteliste. Alle vedlegg i saken blir ansett som farlig."
+    },
+    "loading": "Skanner vedlegg"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Fant potensielt skadelige vedlegg",
+      "body": "Vi fant ett eller flere vedlegg i denne saken som kanskje kan brukes til å spre skadelig programvare."
+    },
+    "secure": "Vedleggene er sikre"
+  },
+  "unsecure_attachments": {
+    "heading": "Potensielt skadelig(e) vedlegg"
+  }
+}

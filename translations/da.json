@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Denne app advarer dig, når der eksisterer vedhæftede filer med et bestemt filtypenavn.",
+    "parameters": {
+      "whitelist": {
+        "label": "Whitelist",
+        "helpText": "Definer filformaterne for vedhæftede filer, som agenter og brugere kan uploade. (Separer filtypenavne med et komma. For eksempel: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Der er noget galt"
+    },
+    "alert": {
+      "empty_whitelist": "Du har ikke angivet en whitelist. Alle vedhæftede filer i en ticket vil blive anset for at være skadelige."
+    },
+    "loading": "Scanner vedhæftede filer"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "En potentiel skadelig vedhæftet fil blev detekteret",
+      "body": "Vi fandt en eller flere vedhæftede filer i denne ticket, som kan bruges til at sprede malware."
+    },
+    "secure": "Vedhæftede filer er sikre"
+  },
+  "unsecure_attachments": {
+    "heading": "Potentielt skadelig(e) vedhæfte(t)(de) fil(er)"
+  }
+}

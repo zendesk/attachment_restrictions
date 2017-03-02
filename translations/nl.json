@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Deze app waarschuwt u als er bijlagen met een bepaalde bestandsextensie bestaan.",
+    "parameters": {
+      "whitelist": {
+        "label": "Witte lijst",
+        "helpText": "Geef de bestandsindelingen op voor bijlagen die agenten en gebruikers mogen uploaden. (Scheid extensies met een komma. Bijvoorbeeld: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Er is iets fout gegaan"
+    },
+    "alert": {
+      "empty_whitelist": "U hebt geen witte lijst opgegeven. Alle bijlagen in een ticket worden als gevaarlijk beschouwd."
+    },
+    "loading": "Bijlagen scannen"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Mogelijk schadelijke bijlagen gedetecteerd",
+      "body": "Wij hebben een of meer bijlagen in dit ticket ontdekt waarmee malware kan worden verspreid."
+    },
+    "secure": "Bijlagen zijn veilig"
+  },
+  "unsecure_attachments": {
+    "heading": "Mogelijk schadelijke bijlage(n)"
+  }
+}

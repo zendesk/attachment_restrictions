@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Esta aplicación le advierte si existen adjuntos con una cierta extensión de archivo.",
+    "parameters": {
+      "whitelist": {
+        "label": "Lista blanca",
+        "helpText": "Defina los formatos de archivo para los adjuntos que los agentes y los usuarios pueden cargar. (Separe las extensiones con una coma. Por ejemplo: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Algo salió mal"
+    },
+    "alert": {
+      "empty_whitelist": "No ha especificado una lista blanca. Todos los adjuntos en un ticket serán considerados peligrosos."
+    },
+    "loading": "Examinando adjuntos"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Se han detectado adjuntos potencialmente maliciosos",
+      "body": "Hemos encontrado uno o varios adjuntos en este ticket que podrían usarse para propagar malware."
+    },
+    "secure": "Los adjuntos son seguros"
+  },
+  "unsecure_attachments": {
+    "heading": "Adjuntos potencialmente maliciosos"
+  }
+}

@@ -1,0 +1,51 @@
+---
+title: "Attachment Restrictions"
+packages:
+  - default
+  - app_secure_attachments
+
+parts:
+  - translation:
+      key: "txt.apps.secure_attachments.app.name"
+      title: "Name of the app"
+      value: "Secure Attachments app"
+  - translation:
+      key: "txt.apps.secure_attachments.app.description"
+      title: "Description of what the app does"
+      value: "This app warns you when attachments with a certain file extension exist."
+  - translation:
+      key: "txt.apps.secure_attachments.app.parameters.whitelist.label"
+      title: "Label message for the whitelist setting field."
+      value: "Whitelist"
+  - translation:
+      key: "txt.apps.secure_attachments.app.parameters.whitelist.helpText"
+      title: "A brief description on what the whitelist setting is for, below the whitelist field."
+      value: "Define the file formats for attachments that agents and users are allowed to upload. (Separate extensions with a comma. For example: zip, jpg, gif, png, pdf)"
+  - translation:
+      key: "txt.apps.secure_attachments.global.error.general"
+      title: "Letting the user know that something went wrong with the interface"
+      value: "Something went wrong"
+  - translation:
+      key: "txt.apps.secure_attachments.global.alert.empty_whitelist"
+      title: "Letting the user know that a whitelist is empty, and its consequences."
+      value: "You have not specified a whitelist. All attachments in a ticket will be considered dangerous."
+  - translation:
+      key: "txt.apps.secure_attachments.global.loading"
+      title: "A message displayed next to the spinner saying 'scanning for attachments'."
+      value: "Scanning attachments"
+  - translation:
+      key: "txt.apps.secure_attachments.attachment.unsecure.heading"
+      title: "Warning that there could be unsafe attachments"
+      value: "Potentially malicious attachments detected"
+  - translation:
+      key: "txt.apps.secure_attachments.attachment.unsecure.body"
+      title: "Warning that there could be unsafe attachments"
+      value: "We have found one or more attachments in this ticket that could be used to spread malware."
+  - translation:
+      key: "txt.apps.secure_attachments.attachment.secure"
+      title: "Positive message that we didn't find a match"
+      value: "Attachments are safe"
+  - translation:
+      key: "txt.apps.secure_attachments.unsecure_attachments.heading"
+      title: "Header Message displayed above the unsecure attachments"
+      value: "Potentially malicious attachment(s)"

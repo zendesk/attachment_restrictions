@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "Cette application vous avertit quand il existe des pièces jointes avec une extension de fichier donnée.",
+    "parameters": {
+      "whitelist": {
+        "label": "Ajouter à la liste blanche",
+        "helpText": "Définissez les formats de fichiers que les agents et les utilisateurs peuvent charger en tant que pièces jointes. (Séparez les extensions par des virgules. Exemple : zip, jpg, gif, png, pdf.)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Un problème est survenu."
+    },
+    "alert": {
+      "empty_whitelist": "Vous n’avez pas spécifié de liste blanche. Toutes les pièces jointes à un ticket seront considérées dangereuses."
+    },
+    "loading": "Analyse des pièces jointes en cours"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Pièces jointes potentiellement malveillantes détectées",
+      "body": "Nous avons trouvé dans ce ticket une ou plusieurs pièces jointes qui pourraient être utilisées pour diffuser des logiciels malveillants."
+    },
+    "secure": "Les pièces jointes sont sûres."
+  },
+  "unsecure_attachments": {
+    "heading": "Pièce(s) jointe(s) potentiellement malveillante(s)"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Aplikace Bezpečné přílohy ",
+    "description": "Tato aplikace vás upozorní, když existují přílohy s určitou příponou souboru.",
+    "parameters": {
+      "whitelist": {
+        "label": "Seznam povolených",
+        "helpText": "Definujte formáty souborů pro přílohy, které mohou agenti a uživatelé odesílat (přípony oddělujte čárkou, například: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "Něco se nepovedlo"
+    },
+    "alert": {
+      "empty_whitelist": "Neurčili jste seznam povolených. Všechny přílohy v tiketu budou považovány za nebezpečné."
+    },
+    "loading": "Skenování příloh"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Zjištěny potenciálně škodlivé přílohy",
+      "body": "V tomto tiketu jsme našli jednu nebo více příloh, který by mohly sloužit k šíření malwaru."
+    },
+    "secure": "Přílohy jsou bezpečné"
+  },
+  "unsecure_attachments": {
+    "heading": "Potenciálně škodlivé přílohy"
+  }
+}

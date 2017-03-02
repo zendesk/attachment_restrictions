@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Secure Attachments app",
+    "description": "當存在特定副檔名的附檔時，此 app 會警示您。",
+    "parameters": {
+      "whitelist": {
+        "label": "白名單",
+        "helpText": "定義允許代理和使用者上傳的附檔格式。（用逗號隔開多個副檔名。例如：zip, jpg, gif, png, pdf）"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "出錯了"
+    },
+    "alert": {
+      "empty_whitelist": "您尚未指定白名單。工單中的所有附檔都將被視為有危險。"
+    },
+    "loading": "附檔掃描中"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "已偵測到潛在惡意程式碼附檔",
+      "body": "我們已發現此工單中有一個或多個附檔可用於傳播惡意程式碼。"
+    },
+    "secure": "附檔安全"
+  },
+  "unsecure_attachments": {
+    "heading": "潛在惡意程式碼附檔"
+  }
+}

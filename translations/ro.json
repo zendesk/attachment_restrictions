@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "Aplicaţie Fişiere ataşate securizate",
+    "description": "Această aplicaţie vă avertizează atunci când există fişiere ataşate cu o anumită extensie de fişier.",
+    "parameters": {
+      "whitelist": {
+        "label": "Listă albă",
+        "helpText": "Definiţi formatul fişierelor pentru fişierele ataşate pe care agenţii şi utilizatorii le pot încărca. (Separaţi extensiile prin virgulă. De exemplu: zip, jpg, gif, png, pdf)"
+      }
+    }
+  },
+  "global": {
+    "error": {
+      "general": "A apărut o problemă"
+    },
+    "alert": {
+      "empty_whitelist": "Nu aţi specificat o listă albă. Toate fişierele ataşate dintr-un tichet vor fi considerate periculoase."
+    },
+    "loading": "Se scanează fişierele ataşate"
+  },
+  "attachment": {
+    "unsecure": {
+      "heading": "Au fost detectate fişiere ataşate potenţial rău intenţionate",
+      "body": "În acest tichet, am găsit unul sau mai multe fişiere ataşate care ar putea fi utilizate pentru a răspândi software maliţios."
+    },
+    "secure": "Fişierele ataşate sunt sigure"
+  },
+  "unsecure_attachments": {
+    "heading": "Fişier(e) ataşat(e) potenţial maliţios(oase)"
+  }
+}
